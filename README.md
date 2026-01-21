@@ -1,4 +1,4 @@
-# 🎬 YouTube Clone (HTML & CSS)
+# 🎬 YouTube Clone (HTML & CSS & JS)
 
 Este projeto é um **clone fiel da interface do YouTube**, desenvolvido com foco em **HTML5 e CSS3**, reproduzindo com precisão o layout, estrutura visual e organização da plataforma original.
 
@@ -66,6 +66,7 @@ O layout foi construído respeitando a hierarquia original do YouTube:
 
 - **HTML5**
 - **CSS3**
+- **JavaScript**
 - **Flexbox**
 - **Google Fonts (Inter)**
 
@@ -82,5 +83,6 @@ O layout foi construído respeitando a hierarquia original do YouTube:
  ┃ ┃ ┣ 📂 icons
  ┃ ┃ ┗ 📂 images
  ┣ 📄 index.html
+ ┣ 📄 script.js
  ┣ 📄 style.css
  ┗ 📄 README.md
