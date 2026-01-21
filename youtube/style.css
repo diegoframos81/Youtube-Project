@@ -9,286 +9,290 @@
 body {
     background-color: #0D0D0D;
     font-family: Inter, sans-serif;
-    color: white;
-}
 
-/* TOPO */
-.topo {
-    height: 56px;
-    background-color: #181818;
-    display: flex;
-    align-items: center;
-}
-
-.topo-container-1,
-.topo-container-2,
-.topo-container-3 {
-    display: flex;
-    align-items: center;
-}
-
-.topo-container-1 {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.topo-container-2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex: 2;
-}
-
-.topo-container-3 {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 34px;
-}
-
-.menu-icon {
-    margin-left: 20px;
-    width: 24px;
-    cursor: pointer;
-}
-
-.menu-logo {
-    width: 100px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-
-.campo-pesquisa {
-    width: 714px;
-    height: 38px;
-    border: 1px solid #2A2A2A;
-    outline: 0;
-    background-color: #0F0F0F;
-    border-top-left-radius: 45px;
-    border-bottom-left-radius: 45px;
-    color: white;
-    padding-left: 10px;
-}
-
-.btn-pesquisa {
-    height: 38px;
-    border: 0;
-    outline: 0;
-    background-color: #2A2A2A;
-    width: 78px;
-    border-top-right-radius: 45px;
-    border-bottom-right-radius: 45px;
-    cursor: pointer;
-}
+    /* Sidebar Toggle */
+    .nav-hidden {
+        display: none;
+    }
 
 
-.btn-microfone {
-    width: 38px;
-    height: 38px;
-    border: 0;
-    outline: 0;
-    background-color: #2A2A2A;
-    border-radius: 50%;
-    margin-left: 32px;
-    cursor: pointer;
-}
+    /* TOPO */
+    .topo {
+        height: 56px;
+        background-color: #181818;
+        display: flex;
+        align-items: center;
+    }
 
-.icone-microfone {
-    width: 22px;
-    height: 22px;
-}
+    .topo-container-1,
+    .topo-container-2,
+    .topo-container-3 {
+        display: flex;
+        align-items: center;
+    }
 
-.icone-container-3 {
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-}
+    .topo-container-1 {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
 
-.avatar {
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-    margin-right: 10px;
-    background-image: url("/youtube/assets/images/profile-icon.JPG");
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
-}
+    .topo-container-2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex: 2;
+    }
 
-/* LAYOUT */
-.menu {
-    display: flex;
-}
+    .topo-container-3 {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 34px;
+    }
 
-nav {
-    width: 88px;
-    background: #0F0F0F;
-    padding-top: 20px;
-}
+    .menu-icon {
+        margin-left: 20px;
+        width: 24px;
+        cursor: pointer;
+    }
 
-.btn-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 24px;
-    cursor: pointer;
-}
+    .menu-logo {
+        width: 100px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
 
-.nome-btn {
-    font-size: 10px;
-    margin-top: 4px;
-}
+    .campo-pesquisa {
+        width: 714px;
+        height: 38px;
+        border: 1px solid #2A2A2A;
+        outline: 0;
+        background-color: #0F0F0F;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px;
+        color: white;
+        padding-left: 10px;
+    }
 
-/* CONTEÚDO */
-.content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
+    .btn-pesquisa {
+        height: 38px;
+        border: 0;
+        outline: 0;
+        background-color: #2A2A2A;
+        width: 78px;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+        cursor: pointer;
+    }
 
-/* BANNER */
-.banner {
-    height: 250px;
-    background-image: url("/youtube/assets/images/banner.png");
-    background-size: cover;
-    background-position: center;
-}
 
-/* CANAL */
-.channel {
-    padding: 24px 32px;
-}
+    .btn-microfone {
+        width: 38px;
+        height: 38px;
+        border: 0;
+        outline: 0;
+        background-color: #2A2A2A;
+        border-radius: 50%;
+        margin-left: 32px;
+        cursor: pointer;
+    }
 
-.channel-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    .icone-microfone {
+        width: 22px;
+        height: 22px;
+    }
 
-.channel-left {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-}
+    .icone-container-3 {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
 
-.channel-avatar {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-image: url("/youtube/assets/images/profile-icon.JPG");
-    background-size: cover;
-    background-position: center;
-}
+    .avatar {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        margin-right: 10px;
+        background-image: url("/youtube/assets/images/profile-icon.JPG");
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+    }
 
-.channel-name {
-    font-size: 20px;
-}
+    /* LAYOUT */
+    .menu {
+        display: flex;
+    }
 
-.channel-subs {
-    font-size: 14px;
-    color: #AAA;
-}
+    nav {
+        width: 88px;
+        background: #0F0F0F;
+        padding-top: 20px;
+    }
 
-.subscribe-btn {
-    background: white;
-    color: black;
-    border: none;
-    padding: 10px 18px;
-    border-radius: 20px;
-    font-weight: 600;
-    cursor: pointer;
-}
+    .btn-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 24px;
+        cursor: pointer;
+    }
 
-/* MENU DO CANAL */
-.channel-menu {
-    display: flex;
-    gap: 32px;
-    margin: 24px 0;
-    font-size: 14px;
-    cursor: pointer;
-}
+    .nome-btn {
+        font-size: 10px;
+        margin-top: 4px;
+    }
 
-.channel-menu a {
-    color: #AAA;
-}
+    /* CONTEÚDO */
+    .content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
 
-.channel-menu .active {
-    color: white;
-    border-bottom: 2px solid white;
-    padding-bottom: 6px;
-}
+    /* BANNER */
+    .banner {
+        height: 250px;
+        background-image: url("/youtube/assets/images/banner.png");
+        background-size: cover;
+        background-position: center;
+    }
 
-/* VÍDEOS */
-.videos-section {
-    margin-top: 32px;
-}
+    /* CANAL */
+    .channel {
+        padding: 24px 32px;
+    }
 
-.videos-section h2 {
-    font-size: 18px;
-    margin-bottom: 16px;
-}
+    .channel-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.videos-section span {
-    color: #AAA;
-    font-size: 14px;
-    margin-left: 8px;
-    cursor: pointer;
-}
+    .channel-left {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
 
-.videos-row {
-    display: flex;
-    gap: 16px;
-}
+    .channel-avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-image: url("/youtube/assets/images/profile-icon.JPG");
+        background-size: cover;
+        background-position: center;
+    }
 
-.video-card-1,
-.video-card-2,
-.video-card-3,
-.video-card-4,
-.video-card-5,
-.video-card-6 {
-    width: 210px;
-    height: 120px;
-    border-radius: 10px;
-}
+    .channel-name {
+        font-size: 20px;
+    }
 
-.video-card-1 {
-    background-image: url("/youtube/assets/images/video-banner1.jpg");
-    background-size: cover;
-    background-position: center;
-}
+    .channel-subs {
+        font-size: 14px;
+        color: #AAA;
+    }
 
-.video-card-2 {
-    background-image: url("/youtube/assets/images/video-banner2.jpg");
-    background-size: cover;
-    background-position: center;
-}
+    .subscribe-btn {
+        background: white;
+        color: black;
+        border: none;
+        padding: 10px 18px;
+        border-radius: 20px;
+        font-weight: 600;
+        cursor: pointer;
+    }
 
-.video-card-3 {
-    background-image: url("/youtube/assets/images/video-banner3.jpg");
-    background-size: cover;
-    background-position: center;
-}
+    /* MENU DO CANAL */
+    .channel-menu {
+        display: flex;
+        gap: 32px;
+        margin: 24px 0;
+        font-size: 14px;
+        cursor: pointer;
+    }
 
-.video-card-4 {
-    background-image: url("/youtube/assets/images/video-banner4.jpg");
-    background-size: cover;
-    background-position: center;
-}
+    .channel-menu a {
+        color: #AAA;
+    }
 
-.video-card-5 {
-    background-image: url("/youtube/assets/images/video-banner5.jpg");
-    background-size: cover;
-    background-position: center;
-}
+    .channel-menu .active {
+        color: white;
+        border-bottom: 2px solid white;
+        padding-bottom: 6px;
+    }
 
-.video-card-6 {
-    background-image: url("/youtube/assets/images/video-banner6.jpg");
-    background-size: cover;
-    background-position: center;
-}
+    /* VÍDEOS */
+    .videos-section {
+        margin-top: 32px;
+    }
+
+    .videos-section h2 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .videos-section span {
+        color: #AAA;
+        font-size: 14px;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+
+    .videos-row {
+        display: flex;
+        gap: 16px;
+    }
+
+    .video-card-1,
+    .video-card-2,
+    .video-card-3,
+    .video-card-4,
+    .video-card-5,
+    .video-card-6 {
+        width: 210px;
+        height: 120px;
+        border-radius: 10px;
+    }
+
+    .video-card-1 {
+        background-image: url("/youtube/assets/images/video-banner1.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .video-card-2 {
+        background-image: url("/youtube/assets/images/video-banner2.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .video-card-3 {
+        background-image: url("/youtube/assets/images/video-banner3.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .video-card-4 {
+        background-image: url("/youtube/assets/images/video-banner4.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .video-card-5 {
+        background-image: url("/youtube/assets/images/video-banner5.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .video-card-6 {
+        background-image: url("/youtube/assets/images/video-banner6.jpg");
+        background-size: cover;
+        background-position: center;
+    }
