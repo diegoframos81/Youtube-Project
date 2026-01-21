@@ -4,6 +4,8 @@ Este projeto é um **clone fiel da interface do YouTube**, desenvolvido com foco
 
 O objetivo principal é **estudo aprofundado de layout, posicionamento, flexbox e arquitetura visual**, simulando como grandes plataformas estruturam suas interfaces.
 
+<img width="1908" height="927" alt="image" src="https://github.com/user-attachments/assets/31e083be-cca9-4973-9162-15c61018dadd" />
+
 ---
 
 ## 📌 Objetivo do Projeto
