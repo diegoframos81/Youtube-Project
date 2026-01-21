@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOPO -->
+    <header class="topo">
+        <div class="topo-container-1">
+            <img class="menu-icon" src="/youtube/assets/icons/menu-icon.svg">
+            <img class="menu-logo" src="/youtube/assets/icons/logo.svg">
+        </div>
+
+        <div class="topo-container-2">
+            <input type="search" class="campo-pesquisa">
+            <button class="btn-pesquisa">
+                <img class="icone-botao-pesquisa" src="/youtube/assets/icons/lupa.svg">
+            </button>
+            <button class="btn-microfone">
+                <img class="icone-microfone" src="/youtube/assets/icons/microphone.svg">
+            </button>
+        </div>
+
+        <div class="topo-container-3">
+            <img class="icone-container-3" src="/youtube/assets/icons/upload.svg">
+            <img class="icone-container-3" src="/youtube/assets/icons/apps.svg">
+            <img class="icone-container-3" src="/youtube/assets/icons/bell.svg">
+            <div class="avatar"></div>
+        </div>
+    </header>
+
+    <!-- LAYOUT PRINCIPAL -->
+    <div class="menu">
+
+        <!-- MENU LATERAL -->
+        <nav>
+            <div class="btn-menu">
+                <img src="/youtube/assets/icons/home.svg">
+                <label class="nome-btn">Home</label>
+            </div>
+
+            <div class="btn-menu">
+                <img src="/youtube/assets/icons/shorts.svg">
+                <label class="nome-btn">Shorts</label>
+            </div>
+
+            <div class="btn-menu">
+                <img src="/youtube/assets/icons/subscriptions.svg">
+                <label class="nome-btn">Subscriptions</label>
+            </div>
+
+            <div class="btn-menu">
+                <img src="/youtube/assets/icons/library.svg">
+                <label class="nome-btn">Library</label>
+            </div>
+        </nav>
+
+        <!-- CONTEÚDO -->
+        <main class="content">
+
+            <!-- BANNER -->
+            <div class="banner"></div>
+
+            <!-- CANAL -->
+            <section class="channel">
+
+                <!-- HEADER DO CANAL -->
+                <div class="channel-header">
+                    <div class="channel-left">
+                        <div class="channel-avatar"></div>
+
+                        <div>
+                            <h1 class="channel-name">Diego Ramos ✔</h1>
+                            <p class="channel-subs">5.5M inscritos</p>
+                        </div>
+                    </div>
+
+                    <button class="subscribe-btn">Inscrever-se</button>
+                </div>
+
+                <!-- MENU DO CANAL -->
+                <div class="channel-menu">
+                    <a class="active">HOME</a>
+                    <a>VIDEOS</a>
+                    <a>PLAYLISTS</a>
+                    <a>COMMUNITY</a>
+                    <a>STORE</a>
+                    <a>CHANNELS</a>
+                    <a>ABOUT</a>
+                </div>
+
+                <!-- SESSÕES -->
+                <div class="videos-section">
+                    <h2>Newest Channel Name Videos <span>▶ Play all</span></h2>
+
+                    <div class="videos-row">
+                        <div class="video-card-1"></div>
+                        <div class="video-card-2"></div>
+                        <div class="video-card-3"></div>
+                        <div class="video-card-4"></div>
+                        <div class="video-card-5"></div>
+                        <div class="video-card-6"></div>
+                    </div>
+                </div>
+
+                <div class="videos-section">
+                    <h2>Most Popular Channel Name Videos <span>▶ Play all</span></h2>
+
+                    <div class="videos-row">
+                        <div class="video-card-1"></div>
+                        <div class="video-card-2"></div>
+                        <div class="video-card-3"></div>
+                        <div class="video-card-4"></div>
+                        <div class="video-card-5"></div>
+                        <div class="video-card-6"></div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
